@@ -1,7 +1,18 @@
-<h1>Angular Signals Counter</h1>
-
-<button (click)="onIncrement()">Increment</button>
-<button (click)="onDecrement()">Decrement</button>
-
-<app-child1></app-child1>
-<app-child2></app-child2>
+<div class="container mt-5">
+  <div class="card">
+    <div class="card-header">
+      <h3 class="mb-0">Week 3 - Signals</h3>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">app.component.html</h5>
+      
+      <div class="mb-3">
+        <button (click)="onIncrement()" class="btn btn-primary me-2">Increment</button>
+        <button (click)="onDecrement()" class="btn btn-primary">Decrement</button>
+      </div>
+      
+      <app-child1></app-child1>
+      <app-child2></app-child2>
+    </div>
+  </div>
+</div>
