@@ -12,6 +12,6 @@ export class Child1 {
   constructor(public counterService: CounterService){}
 
   get count(){
-    return this.counterService.getCount();
+    return this.counterService.getCount()();
   }
 }

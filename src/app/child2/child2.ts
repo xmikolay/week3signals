@@ -3,6 +3,7 @@ import { CounterService } from '../counter.service';
 
 @Component({
   selector: 'app-child2',
+  standalone: true,
   imports: [],
   templateUrl: './child2.html',
   styleUrl: './child2.css',
